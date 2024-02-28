@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+}
+
+.material-symbols-outlined {
+  font-size: 25px;
+}
+
+.todoContainer {
+  background: rgb(84,190,203);
+  background: linear-gradient(90deg, rgba(84,190,203,0.9682466736694678) 0%, rgba(98,176,255,1) 50%, rgba(0,212,255,1) 100%);
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  background: rgb(174,225,238);
+  background: linear-gradient(90deg, rgba(174,225,238,1) 0%, rgba(148,187,233,1) 100%);
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #94bbe9;
+}
+
+ul {
+  list-style: none;
+  width: 300px;
+  margin: 20px auto;
+  text-align: left;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: rgba(255,255,255,0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-size: 14px;
+}
+
+li.checked label {
+  text-decoration: line-through;
+}
+
+.checkbox {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.spacing {
+  width: 100%;
+}
+
+.deleteButton {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  border-radius: 0;
+  background: red;
+}
+
+.deleteButton:hover {
+  background: crimson;
+}
