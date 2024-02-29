@@ -1,6 +1,6 @@
 {
   "name": "@elementalui/elemental",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A lightweight library for creating and managing DOM elements dynamically",
   "main": "dist/index.js",
   "type": "module",
