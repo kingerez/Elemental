@@ -1,19 +1,19 @@
 {
   "name": "@elementalui/elemental",
-  "version": "0.0.31",
+  "version": "0.0.32",
   "description": "A lightweight library for creating and managing DOM elements dynamically",
   "main": "dist/index.js",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/elemental.git"
+    "url": "https://github.com/kingerez/Elemental"
   },
   "keywords": [
     "dom",
     "ui",
     "frontend"
   ],
-  "author": "Your Name <youremail@example.com>",
+  "author": "Erez R <luoruize@gmail.com>",
   "license": "MIT",
   "files": [
     "dist"
