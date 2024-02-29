@@ -5,6 +5,7 @@ import { RefObject } from './RefObject';
 import { AttributeObject, ElementType, Rule } from './types';
 
 export type { InputType, AttributeObject, ElementType } from './types';
+export { ElementalFactory } from './ElementalFactory';
 export { RefObject } from './RefObject';
 export { Rule } from './types';
 
