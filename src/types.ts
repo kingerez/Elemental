@@ -1,4 +1,4 @@
-import { Elemental } from ".";
+import { Elemental } from '.';
 import { ClassArray } from "./ClassArray";
 
 export type ElementType = 'a' | 'abbr' | 'address' | 'area' | 'article' | 'aside' | 'audio' | 

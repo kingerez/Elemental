@@ -187,4 +187,3 @@ export class Elemental<T> {
     return this;
   }
 }
-

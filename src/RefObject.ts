@@ -1,4 +1,4 @@
-import { Elemental } from ".";
+import { Elemental } from '.';
 
 export class RefObject<T> {
   element: Elemental<T> | null = null;
