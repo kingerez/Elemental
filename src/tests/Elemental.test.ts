@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { Elemental } from '../src/index';
-import { ClassArray } from '../src/ClassArray';
+import { Elemental } from '../index';
+import { ClassArray } from '../ClassArray';
 
 describe('Elemental class', () => {
   let elemental: Elemental<any>;

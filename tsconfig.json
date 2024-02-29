@@ -9,6 +9,7 @@
     /* Bundler mode */
     "moduleResolution": "Node",
     // "allowImportingTsExtensions": true,
+    "rootDir": "./src",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
@@ -22,5 +23,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "tests"]
+  "include": ["src"],
+  "exclude": ["src/tests"]
 }
