@@ -4,7 +4,14 @@
 The Elemental Library is a lightweight, flexible JavaScript library for creating and managing HTML elements programmatically. It provides a fluent API for building complex user interfaces in a more expressive and less verbose way.
 
 ## Installation
-To use Elemental in your project, you need to include the library in your project files.
+To use Elemental in your project, you need to include the library in your project files:
+```
+yarn add @elementalui/elemental
+```
+or
+```
+npm install @elementalui/elemental
+```
 
 ## Usage
 
@@ -34,13 +41,23 @@ The `Elemental` class is the core of the library, allowing the creation and mani
 - `query(selector: string)`: Returns a collection of child elements that match the selector.
 - `id(elementId: string)`: Sets the ID of the element.
 - `ref(refObject: RefObject<T>)`: Associates the element with a reference object.
-- `addRules(rules: Rule[])`: Adds CSS rules to the element.
+- `addRules(rules: Rule[])`: Add methods to be invoked when the elements' classes change.
 - `removeRules(rules: Rule[])`: Removes CSS rules from the element.
 - `getValue()`: Gets the value of the element if it's an input or textarea.
 - `setValue(value: string)`: Sets the value of the element if it's an input or textarea.
 
 ## Examples
-Take a look at the TODO app included in the repository for concrete examples!
+Take a look at the TODO app included in the repository for complete and concrete examples!
+
+To create elements, you can use either the ElementalFactory class, or create them manually:
+```
+const app = ElementalFactory.DIV(['container']).append([
+  ElementalFactory.H1(['title']).text('Elemental App'),
+  ElementalFactory.P(['paragraph']).text('Hello World')
+]);
+
+app.appendTo(document.querySelector('#root'));
+```
 
 ## Contributions
 Contributions to the Elemental Library are welcome. Please follow the project's contribution guidelines for submitting issues or pull requests.

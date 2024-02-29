@@ -15,6 +15,8 @@ export class ElementalFactory {
 
   static H4 = (classes: ClassArray, attributes: AttributeObject = {}) => new Elemental<HTMLHeadingElement>('h4', classes, attributes);
 
+  static P = (classes: ClassArray, attributes: AttributeObject = {}) => new Elemental<HTMLParagraphElement>('p', classes, attributes);
+
   static BUTTON = (classes: ClassArray, attributes: AttributeObject = {}) => new Elemental<HTMLButtonElement>('button', classes, attributes);
 
   static INPUT = (inputType: InputType, classes: ClassArray, attributes: AttributeObject = {}) => new Elemental<HTMLInputElement>('input', classes, { type: inputType, ...attributes });
